@@ -25,7 +25,7 @@ url                      : "https://prierKT.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/prierKT/prierKT.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "assets/images/logo_image.png"
+# logo                     : "assets/images/logo-192x192.png"
 masthead_title           : "탐구하는 개발자"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -101,9 +101,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "prierKT"
-  avatar           : "assets/images/logo_image.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "공부한 내용을 정리하며<br>내 것으로 만들기"
+  name             : "Kyoungtae Min"
+  avatar           : "assets/images/logo-192x192.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "인공지능 전문가를 향해<br>공부한 내용을 정리하며<br>내 것으로 만들기"
   location         : "Republic of Korea"
   email            :
   links:
@@ -287,11 +287,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
