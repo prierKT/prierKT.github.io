@@ -3,10 +3,10 @@ main:
   - title: "About Me"
     url: /about_me/
   - title: "Portfolio"
-    url: /portfolio/
+    url: /categories/portfolio/
   - title: "AI"
-    url: /ai/
+    url: /categories/ai/
   - title: "Language"
-    url: /language/
+    url: /categories/language/
   # - title: "Sample Collections"
   #   url: /collection-archive/

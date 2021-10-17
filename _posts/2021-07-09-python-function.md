@@ -2,8 +2,12 @@
 layout: single
 title: "Function (함수)"
 excerpt: "Python의 함수 정의하기"
-cartegories: Language
-tags: Python
+toc: true
+toc_sticky: true
+categories:
+  - language
+tags:
+  - python
 ---
 
 # 함수(Function)
