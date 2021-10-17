@@ -2,6 +2,7 @@
 title: "My Introduce"
 permalink: /about_me/
 layout: single
+author_profile: true
 ---
 
 
