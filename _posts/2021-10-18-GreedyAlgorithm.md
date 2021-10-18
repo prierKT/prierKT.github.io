@@ -7,7 +7,8 @@ toc_sticky: true
 categories:
   - language
 tags:
-  - python, algorithm
+  - python
+  - algorithm
 ---
 
 ## 그리디 알고리즘 (Greedy Algorithm)
