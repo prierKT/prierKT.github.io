@@ -26,7 +26,7 @@ author_profile: true
 **언어 / LANGUAGE**
 -----
 - PYTHON
-- SQL
+- SQL (Oracle, My Sql)
 
 
 **간단 자기소개 / INTRODUCE MYSELF**
