@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 locale                   : "ko-KR"
 title                    : "탐구하는 개발자의 기술블로그"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "인공지능을 연구하고 모델링" # site tagline that appears below site title in masthead
 name                     : "민경태(Kyoungtae Min)"
 description              : "인공지능 전문가를 향해"
 url                      : "https://prierKT.github.io"
