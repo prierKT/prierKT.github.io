@@ -95,4 +95,5 @@ print(count)
 ---
 오늘은 그리디 알고리즘에 대해서 알아보았다. 이제 문제를 직접 해결해 보면서 내 것으로 만들어야지. 데이터 분석, 머신러닝, 딥러닝 관련 공부만 하다가 알고리즘 공부를 하기 위해 처음 시작했는데 이건 이거대로 재미가 있어서 다행이다. 중간에 그만두지 말고 끝까지 해보자 파이팅.
 
-본 포스팅은 `[안경잡이개발자]나동빈`님의 [유튜브강의](https://www.youtube.com/watch?v=2zjoKjt97vQ&list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC&index=2)를 기반으로 작성하였습니다. 좋은 강의를 올려주신 동빈님께 감사합니다. 더 자세히 알고 싶은 분은 링크를 타고 가서 보시기 바랍니다.
+---
+*본 포스팅은 `[안경잡이개발자]나동빈`님의 [유튜브강의](https://www.youtube.com/watch?v=2zjoKjt97vQ&list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC&index=2)를 기반으로 작성하였습니다. 좋은 강의를 올려주신 동빈님께 감사합니다. 더 자세히 알고 싶은 분은 링크를 타고 가서 보시기 바랍니다.*
