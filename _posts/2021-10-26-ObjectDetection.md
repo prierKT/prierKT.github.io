@@ -66,7 +66,7 @@ categories:
 <center><img src="{{site.baseurl}}/assets/images/M1A2-ATW.gif" style="zoom:50%;" /></center><br>
 
 * Type90
-<center><img src="{{site.baseurl}}/assets/images/Type90-ATW.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/Type_90-ATW.gif" style="zoom:50%;" /></center><br>
 
 학습을 완료하여 만들어진 모델을 사용하여 Object Detection한 결과 입니다. 최종적으로 만들어야 하는 모델은 전차를 구별할 수 있는 모델이므로, Tank 관련 영상을 구하여 객체 탐지를 실행하였습니다. 인식률 불안정, bbox의 범위 불안정, 원거리 탐지 불가의 문제가 있었습니다. 그럼에도 학습시킨 데이터의 양과 질에 비해 어느 정도의 성능을 보이는 것을 확인할 수 있었으며, 충분히 전차들을 구별해낼 수 있는 모델을 만들 수 있다는 가능성을 가질 수 있었습니다.
 
