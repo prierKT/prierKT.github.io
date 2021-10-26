@@ -36,8 +36,8 @@ categories:
 
 * AP :
   * YOLOv4 : 88%
-  * EfficientDet-D3 896x896 : 81%
-  * SSD ResNet152 V1 FPN 640x640 (RetinaNet152) : 80%
+  * SSD ResNet152 V1 FPN 640x640 (RetinaNet152) : 80% ([코드-Github](https://github.com/prierKT/tensorflow_detection_model/blob/main/TF2_SSD_resnet152_v1_fpn_640.ipynb))
+  * EfficientDet-D3 896x896 : 81% ([코드-Github](https://github.com/prierKT/tensorflow_detection_model/blob/main/EfficientDet-d3-TensorFlow2-Object-Detection.ipynb))
 
 위 처럼 나왔으며, Object에 관한 오인식률도 가장 적고 Bounding Box(이 후 bbox로 칭함)의 범위도 Object의 경계선에 가장 가깝게 그려졌습니다. 따라서, 전체적으로 YOLOv4가 더 좋은 성능을 가지고 있다고 판단하여 결정하였습니다.
 
