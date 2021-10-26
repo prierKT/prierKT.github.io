@@ -74,7 +74,7 @@ categories:
 ## 3. 본 모델
 
 ### 3-1. Dataset 만들기
-초기 모델을 학습시키면서 역시 데이터의 중요성을 다시 한 번 깨닫게 되었습니다. 그래서 가장 심혈을 기울인 부분이 바로 이 Dataset 입니다. 클라이언트께 받은 각 전차들의 여러 영상을 활용하여 Dataset을 만들었습니다.
+초기 모델을 학습시키면서 역시 데이터의 중요성을 다시 한 번 깨닫게 되었습니다. 그래서 여러 방법으로 Dataset을 만들어 학습시켜보며, 모델이 가장 좋은 성능을 가진 최선의 Dataset을 만들었습니다. 클라이언트께 받은 각 전차들의 여러 영상을 활용하였습니다.
 
 #### 3-1-1. 초기 모델을 활용하여 만들기
 AiGuy의 [yolov4-custom-function](https://github.com/theAIGuysCode/yolov4-custom-functions)에 crop 기능을 활용하였습니다. 이 기능은 학습한 모델로 Detection을 실행하면, Detection시에 그려지는 bbox에 맞게 object를 잘라내어 캡쳐하는 기능입니다. 이 기능의 코드를 수정 및 추가하여 사용하였습니다.
