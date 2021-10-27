@@ -59,31 +59,31 @@ categories:
 
 #### 2-3-1. Object Detection
 * K1A1
-<center><img src="{{site.baseurl}}/assets/images/K1A1-ATW.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/K1A1-ATW.gif" /></center><br>
 
 * K2
-<center><img src="{{site.baseurl}}/assets/images/K2-ATW.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/K2-ATW.gif" /></center><br>
 
 * M1A2
-<center><img src="{{site.baseurl}}/assets/images/M1A2-ATW.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/M1A2-ATW.gif" /></center><br>
 
 * Type90
-<center><img src="{{site.baseurl}}/assets/images/Type_90-ATW.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/Type_90-ATW.gif" /></center><br>
 
 학습을 완료하여 만들어진 모델을 사용하여 Object Detection한 결과 입니다. 최종적으로 만들어야 하는 모델은 전차를 구별할 수 있는 모델이므로, Tank 관련 영상을 구하여 객체 탐지를 실행하였습니다. 인식률 불안정, bbox 불안정, 원거리 탐지 불안정의 문제가 있었습니다. 그럼에도 학습시킨 데이터의 양과 질에 비해 어느 정도의 성능을 보이는 것을 확인할 수 있었으며, 충분히 전차들을 구별해낼 수 있는 모델을 만들 수 있다는 가능성을 가질 수 있었습니다.
 
 #### 2-3-2. Object Tracking
 * K1A1
-<center><img src="{{site.baseurl}}/assets/images/K1A1-ATW-track.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/K1A1-ATW-track.gif" /></center><br>
 
 * K2
-<center><img src="{{site.baseurl}}/assets/images/K2-ATW-track.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/K2-ATW-track.gif" /></center><br>
 
 * M1A2
-<center><img src="{{site.baseurl}}/assets/images/M1A2-ATW-track.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/M1A2-ATW-track.gif" /></center><br>
 
 * Type90
-<center><img src="{{site.baseurl}}/assets/images/Type_90-ATW-track.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/Type_90-ATW-track.gif" /></center><br>
 
 Object Tracking한 결과입니다. 모델의 탐지 성능이 불안정하기 때문에 객체 추적도 정확하게 하지 못하고 있는 것을 확인할 수 있었습니다.
 
@@ -123,31 +123,31 @@ K1A1과 K2는 우리나라의 주력전차이기 때문에, 영상에 같이 등
 
 #### 3-3-1. Object Detection
 * K1A1
-<center><img src="{{site.baseurl}}/assets/images/K1A1-Tank7.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/K1A1-Tank7.gif" /></center><br>
 
 * K2
-<center><img src="{{site.baseurl}}/assets/images/K2-Tank7.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/K2-Tank7.gif" /></center><br>
 
 * M1A2
-<center><img src="{{site.baseurl}}/assets/images/M1A2-Tank7.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/M1A2-Tank7.gif" /></center><br>
 
 * Type90
-<center><img src="{{site.baseurl}}/assets/images/Type_90-Tank7.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/Type_90-Tank7.gif" /></center><br>
 
 Detection한 결과를 보면 높은 정확도로 근거리, 원거리의 Object를 탐지해내는 것을 확인할 수 있으며, K1A1과 K2가 한 장면에 같이 등장하더라도 구별해내는 것을 확인할 수 있습니다. 또한, bbox의 범위도 들쭉날쭉 하지않고 전차의 끝 부분에 알맞게 그려지는 것도 확인할 수 있습니다.
 
 #### 3-3-2. Object Tracking
 * K1A1
-<center><img src="{{site.baseurl}}/assets/images/K1A1-Tank7-track.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/K1A1-Tank7-track.gif" /></center><br>
 
 * K2
-<center><img src="{{site.baseurl}}/assets/images/K2-Tank7-track.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/K2-Tank7-track.gif" /></center><br>
 
 * M1A2
-<center><img src="{{site.baseurl}}/assets/images/M1A2-Tank7-track.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/M1A2-Tank7-track.gif" /></center><br>
 
 * Type90
-<center><img src="{{site.baseurl}}/assets/images/Type_90-Tank7-track.gif" style="zoom:50%;" /></center><br>
+<center><img src="{{site.baseurl}}/assets/images/Type_90-Tank7-track.gif" /></center><br>
 
 Tracking한 결과도 역시 좋은 성능을 보이고 있는 것을 확인할 수 있습니다. 특히 K2의 결과에서 모델이 판단하여 같은 전차라고 판단했을 경우에는 Tracking number를 같은 번호로 표시를 해주고 있습니다.<br><br><br>
 
