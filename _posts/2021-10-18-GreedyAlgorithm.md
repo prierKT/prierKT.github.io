@@ -5,9 +5,8 @@ excerpt: "그리디 알고리즘(탐욕 알고리즘)의 개념잡기"
 toc: true
 toc_sticky: true
 categories:
-  - language
-tags:
   - python
+tags:
   - algorithm
 ---
 

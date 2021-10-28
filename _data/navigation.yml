@@ -4,9 +4,11 @@ main:
     url: /about_me/
   - title: "Portfolio"
     url: /categories/portfolio/
-  - title: "AI"
-    url: /categories/ai/
-  - title: "Language"
-    url: /categories/language/
+  - title: "Deep Learning"
+    url: /categories/deep-learning/
+  - title: "Machine Learning"
+    url: /categories/machine-learning/
+  - title: "Python"
+    url: /categories/python/
   # - title: "Sample Collections"
   #   url: /collection-archive/
