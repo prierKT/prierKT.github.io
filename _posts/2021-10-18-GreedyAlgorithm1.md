@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "그리디 알고리즘 (Greedy Algorithm)"
+title: "그리디 알고리즘 (Greedy Algorithm) - 1"
 excerpt: "그리디 알고리즘(탐욕 알고리즘)의 개념잡기"
 toc: true
 toc_sticky: true
