@@ -36,8 +36,8 @@ categories:
 
 * AP :
   * YOLOv4 : 88%
-  * SSD ResNet152 V1 FPN 640x640 (RetinaNet152) : 80% [코드-Github](https://github.com/prierKT/tensorflow_detection_model/blob/main/TF2_SSD_resnet152_v1_fpn_640.ipynb)
-  * EfficientDet-D3 896x896 : 81% [코드-Github](https://github.com/prierKT/tensorflow_detection_model/blob/main/EfficientDet-d3-TensorFlow2-Object-Detection.ipynb)
+  * SSD ResNet152 V1 FPN 640x640 (RetinaNet152) : 80%
+  * EfficientDet-D3 896x896 : 81%
 
 위 처럼 나왔으며, Object에 관한 오인식률도 가장 적고 Bounding Box(이 후 bbox로 칭함)의 범위도 Object의 경계선에 가장 가깝게 그려졌습니다. 따라서, 전체적으로 YOLOv4가 더 좋은 성능을 가지고 있다고 판단하여 결정하였습니다.
 
@@ -155,4 +155,4 @@ Tracking한 결과도 역시 좋은 성능을 보이고 있는 것을 확인할 
 ## 프로젝트를 마치며
 이 프로젝트를 진행하면서 이슈가 발생했을 때의 대처능력을 많이 훈련할 수 있었던 것 같습니다. 여러 차례 시도해보며 막혔을 때, 본인 나름의 연구를 통해서 전보다 더 나은 모델을 만들어 나가는 방법을 어느 정도 깨우칠 수 있었던 프로젝트였습니다. 몰랐던 기술을 공부하고 연구하여 나의 것으로 만들고 이를 활용해 좋은 모델을 개발하는 과정이 너무 재미있었습니다.
 
-위에서 기술한 내용 이외에도 제가 작업한 내용이 궁금하신 분들은 저의 [Github](https://github.com/prierKT)에서 확인하실 수 있습니다. 감사합니다.
+위에서 기술한 내용 이외에도 제가 작업한 내용이 궁금하신 분들은 저의 [Github](https://github.com/prierKT/yolov4-custom-functions)에서 확인하실 수 있습니다. 감사합니다.
