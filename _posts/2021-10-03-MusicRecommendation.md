@@ -56,7 +56,7 @@ categories:
 
 
 * 데이터 전처리 및 모델 학습에 사용하기 위해 데이터를 Database에 저장
-  - **데이터를 효율적으로 관리하기 위해서 AWS(Amazon Web Service)를 이용하여 DB(Mysql)를 구죽**하여 진행했다. 음원 특성 데이터 추출은 **'librosa'**패키지를 사용하였고, 추출한 데이터는 다음과 같다.
+  - **데이터를 효율적으로 관리하기 위해서 AWS(Amazon Web Service)를 이용하여 DB(Mysql)를 구축**하여 진행했다. 음원 특성 데이터 추출은 **'librosa'**패키지를 사용하였고, 추출한 데이터는 다음과 같다.
     - Spectral Centroid : 곡의 중심을 나타내는 스펙트럼 형태의 측정 방법.
     - Spectral Rolloff : 곡의 주파수의 합이 저음인가를 측정하는 방법.
     - Zero-Crossing : 곡의 부드러움을 측정하는 방법.
