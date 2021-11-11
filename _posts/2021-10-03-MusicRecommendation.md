@@ -55,7 +55,7 @@ categories:
   - 음악적 분석을 위해 푸리에 변환을 통해 **시간이 도메인인 데이터를 주파수가 도메인인 데이터**로 변환하였다.
 
 
-* 데이터 전처리 및 모델 학습에 사용하기 위해 데이터를 Database에 저장 [코드-Github](https://github.com/prierKT/music-recommendation/blob/main/data_to_db.py)
+* 데이터 전처리 및 모델 학습에 사용하기 위해 데이터를 Database에 저장  [[코드-Github]](https://github.com/prierKT/music-recommendation/blob/main/data_to_db.py)
   - **데이터를 효율적으로 관리하기 위해서 AWS(Amazon Web Service)를 이용하여 DB(Mysql)를 구축**하여 진행했다. 음원 특성 데이터 추출은 **'librosa'**패키지를 사용하였고, 추출한 데이터는 다음과 같다.
     - Spectral Centroid : 곡의 중심을 나타내는 스펙트럼 형태의 측정 방법.
     - Spectral Rolloff : 곡의 주파수의 합이 저음인가를 측정하는 방법.
@@ -67,7 +67,7 @@ categories:
     - MFCC(Mel-Frequency Cepstral Coefficients) : 인간의 청각에 전달되는 주파수의 관점으로 신호를 측정하는 방법.
 
 
-* DTW(Dynamic Time Warping)을 활용하여 시계열 분석 [코드-Github](https://github.com/prierKT/music-recommendation/blob/253a83d3d34d3f0911a319a5e6829a57df1fc2fe/Features_Preprocessing_Kmeans_Modeling.py#L198)
+* DTW(Dynamic Time Warping)을 활용하여 시계열 분석  [[코드-Github]](https://github.com/prierKT/music-recommendation/blob/253a83d3d34d3f0911a319a5e6829a57df1fc2fe/Features_Preprocessing_Kmeans_Modeling.py#L198)
   - 음원은 시계열 데이터이다. 따라서 단순히 추출한 특성의 값을 분석하는 것뿐만 아니라, 시간에 따른 멜로디의 변화도 분석이 필요하다.
   - DTW는 두 개의 Sequence의 유사도를 분석하는 알고리즘이다.
   - 추출된 MFCC 값에 **DTW를 적용하여 시간이 다르더라도 곡의 변화 구간이 유사한 곡들의 DTW distance를 구해**, 비교가 가능하게 하였다.
@@ -77,7 +77,7 @@ categories:
 <center><img src="{{site.baseurl}}/assets/images/DTW.png" /></center><br>
 
 
-* 분석된 데이터들에 t-SNE(t-Stochastic Neighbor Embbeding)를 적용하여 차원축소 후, K-means Clustering으로 곡들의 유사도에 맞게 군집화[코드-Github](https://github.com/prierKT/music-recommendation/blob/253a83d3d34d3f0911a319a5e6829a57df1fc2fe/Features_Preprocessing_Kmeans_Modeling.py#L380)
+* 분석된 데이터들에 t-SNE(t-Stochastic Neighbor Embbeding)를 적용하여 차원축소 후, K-means Clustering으로 곡들의 유사도에 맞게 군집화  [[코드-Github]](https://github.com/prierKT/music-recommendation/blob/253a83d3d34d3f0911a319a5e6829a57df1fc2fe/Features_Preprocessing_Kmeans_Modeling.py#L380)
   - 데이터의 차원이 너무 크기 때문에, **차원의 저주에 빠지는 것을 막기위해 t-SNE를 적용**하였다.
   - 방대한 곡의 데이터들을 모두 일일이 비교하려면 연산량이 굉장히 커지고 그에 따라 시간도 오래 걸리기 때문에, K-means Clustering을 통해 elbow 기법을 적용하여 특성이 비슷한 곡들을 10개의 그룹으로 군집화하였다.
 
@@ -93,7 +93,7 @@ categories:
 <center><img src="{{site.baseurl}}/assets/images/music-label.png" /></center><br>
 
 
-* K-means Clustering을 통하여 지정된 label을 y값으로 지도학습[코드-Github](https://github.com/prierKT/music-recommendation/blob/253a83d3d34d3f0911a319a5e6829a57df1fc2fe/Features_Preprocessing_Kmeans_Modeling.py#L516)
+* K-means Clustering을 통하여 지정된 label을 y값으로 지도학습  [[코드-Github]](https://github.com/prierKT/music-recommendation/blob/253a83d3d34d3f0911a319a5e6829a57df1fc2fe/Features_Preprocessing_Kmeans_Modeling.py#L516)
   - train_set : 1308곡 , test_set : 146곡
   - XGBoost와 DNN을 통한 학습을 진행하였는데, 큰 차이는 없었지만 DNN이 미세하나마 좋은 성능을 냈기 때문에 DNN으로 학습시킨 모델을 사용하였다.
     - XGBoost : accuracy = 0.98
@@ -112,7 +112,7 @@ categories:
 
 
 ## 모델 검증 및 서비스 구현
-* 학습이 끝난 모델을 텔레그램 봇으로 구현하여 검증 (아래의 첨부 영상 참고) [코드-Github](https://github.com/prierKT/music-recommendation/blob/main/telegram_bot_final.ipynb)
+* 학습이 끝난 모델을 텔레그램 봇으로 구현하여 검증 (아래의 첨부 영상 참고)  [[코드-Github]](https://github.com/prierKT/music-recommendation/blob/main/telegram_bot_final.ipynb)
   - 입력 곡 : BTS - Butter (전체 구간 중 30초~36초 구간)
   - 예측 곡 : "엉덩이가 먼저 반응하게 되는 아이돌 노래 모음"
     - Christopher – Real Life
