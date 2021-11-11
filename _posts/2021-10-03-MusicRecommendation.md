@@ -42,6 +42,8 @@ categories:
 
   5. 녹음을 사용하지 않을 때를 대비하여, 그 날의 사용자의 기분에 따라 원하는 분위기의 곡을 들을 수 있도록 감성적인 라벨링을 통한 추천기능을 추가한다.
 
+  6. 텔레그램 봇으로 서비스를 구현한다. *(카카오톡 봇으로 구현하고 싶었지만 프로젝트 기간이 촉박하여 인증을 받기 위한 시간이 없었다.)*
+
 
 <center><p>[모델의 공정도]</p></center>
 <center><img src="{{site.baseurl}}/assets/images/music-process.png" /></center><br>
@@ -108,8 +110,8 @@ categories:
 <center><img src="{{site.baseurl}}/assets/images/music-prediction.png" /></center><br>
 
 
-## 모델 검증
-* 학습이 끝난 모델을 사용하여 모델 검증 (아래의 첨부 영상 참고)
+## 모델 검증 및 서비스 구현
+* 학습이 끝난 모델을 텔레그램 봇으로 구현하여 검증 (아래의 첨부 영상 참고)
   - 입력 곡 : BTS - Butter (전체 구간 중 30초~36초 구간)
   - 예측 곡 : "엉덩이가 먼저 반응하게 되는 아이돌 노래 모음"
     - Christopher – Real Life
