@@ -22,7 +22,7 @@ author_profile: true
 - 빅데이터 분석 전문가 과정 수료 (2020/12 ~ 2021/06)
 
 
-** 자격증 / CERTIFICATE **
+**자격증 / CERTIFICATE**
 -----
 - 빅데이터 분석기사
 
