@@ -1,14 +1,10 @@
 # main links
 main:
-  - title: "About Me"
-    url: /about_me/
   - title: "Portfolio"
     url: /categories/portfolio/
-  - title: "Deep Learning"
-    url: /categories/deep-learning/
-  - title: "Machine Learning"
-    url: /categories/machine-learning/
+  - title: "AI"
+    url: /categories/ai/
   - title: "Python"
     url: /categories/python/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "etc"
+    url: /categories/etc/

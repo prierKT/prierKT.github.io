@@ -122,7 +122,7 @@ categories:
     - CJ – Whoopty
 
 
-<center><p>[텔레그램 봇 구현 영상]</p></center>
+<center><p>[텔레그램 봇 구현 영상]<br>(밑의 이미지 클릭)</p></center>
 [<center><img src="https://img.youtube.com/vi/5rwFQe5uX9I/0.jpg" /></center>](https://www.youtube.com/shorts/5rwFQe5uX9I)
 
 
