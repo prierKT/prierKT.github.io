@@ -112,8 +112,8 @@ categories:
 더 정확한 모델을 만들 수 있는 방법을 연구하였습니다. 모델 자체의 한계는 있겠지만, 논문을 읽어 모델을 이해하고 공식 github에서 **configuration file의 파라미터를 핸들링하는 방법 등을 공부하여 다양한 시도를 통해 mAP와 Bbox의 정확도 및 정밀도를 향상시켜 좋은 결과를 얻을 수 있었습니다.**<br><br>
 
 ---
-*※ 작업 코드*<br>
-*[학습 코드(Using google colab)](https://github.com/prierKT/yolov4-training-colab)*<br>
+*※ 작업 코드 (Github)*<br>
+*[학습(Using google colab)](https://github.com/prierKT/yolov4-training-colab)*<br>
 *[모델 검증 및 활용](https://github.com/prierKT/yolov4-custom-functions)*<br>
 
 *※ 참고*<br>
