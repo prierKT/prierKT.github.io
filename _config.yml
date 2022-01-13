@@ -122,6 +122,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/prierKT"
+    - label: "Linkedin"
+      icon: "fab fa-linkedin-in"
+      url: https://www.linkedin.com/in/kyoungtae-min-7665a6228/
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/prier_kt"
@@ -141,9 +144,9 @@ footer:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+    - label: "Linkedin"
+      icon: "fab fa-linkedin-in"
+      url: https://www.linkedin.com/in/kyoungtae-min-7665a6228/
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/prier_kt"
