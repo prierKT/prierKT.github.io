@@ -2,8 +2,8 @@
 main:
   - title: "Portfolio"
     url: /categories/portfolio/
-  - title: "AI"
-    url: /categories/ai/
+  - title: "Machine Learning"
+    url: /categories/machine-learning/
   - title: "Python"
     url: /categories/python/
   - title: "etc"

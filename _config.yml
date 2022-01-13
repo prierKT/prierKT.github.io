@@ -104,7 +104,7 @@ author:
   name             : "Kyoungtae Min"
   avatar           : "assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "인공지능 엔지니어를 향해<br>공부한 내용을 정리하며<br>내 것으로 만들기"
-  location         : "Republic of Korea"
+  location         : "Daejeon, Republic of Korea"
   email            :
   links:
     - label: "Email"
