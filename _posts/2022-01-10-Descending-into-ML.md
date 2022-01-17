@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "머신러닝 기본 개념"
+title: "머신러닝 시작하기"
 excerpt: "Linear Regression, Training, Loss"
 toc: true
 toc_sticky: true
