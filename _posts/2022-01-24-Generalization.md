@@ -80,3 +80,12 @@ The less complex an ML model, the more likely that a good empirical result is no
 - 1년 동안의 소비자의 소매 정보가 포함된 데이터 세트 : 사용자의 구매는 계절에 따라 변하므로 고정성이 적용되지 않는다.
 
 따라서, 앞의 세 가지 기본 가정 중 하나라도 위반되는 것을 알게 된다면, 측정의 기준에 주의를 기울여야 한다.
+
+<br>
+<br>
+<br>
+
+---
+※ 참고
+
+[Google Developer - Peril of Overfitting](https://developers.google.com/machine-learning/crash-course/generalization/peril-of-overfitting)<br>
