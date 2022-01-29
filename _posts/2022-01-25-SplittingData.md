@@ -46,7 +46,7 @@ data set을 두 개의 set로 나누는 것은 좋은 아이디어이지만, 만
 
 <center><img src="{{site.baseurl}}/assets/images/splitting4.png" /></center><br>
 
-validation set을 사용하여 training set에 대한 학습 결과를 평가하고, validation set을 통과 한 뒤에 test set을 사용하여 평가를 다시 확인하는 것이다. validation set을 사용하여 개선된 workflow를 보면 다음과 같다.
+**validation set을 사용하여 training set에 대한 학습 결과를 평가하고, validation set을 통과 한 뒤에 test set을 사용하여 평가를 다시 확인**하는 것이다. validation set을 사용하여 개선된 workflow를 보면 다음과 같다.
 
 <center><img src="{{site.baseurl}}/assets/images/splitting5.png" /></center><br>
 
@@ -55,7 +55,7 @@ validation set을 사용하여 training set에 대한 학습 결과를 평가하
 1. validation set에 대해 성능이 가장 좋은 모델을 선택한다.
 2. test set로 모델을 한번 더 평가 한다.
 
-이는 test set가 모델의 학습에 섞여 들어가는 문제를 줄일 수 있기 때문에 더 좋은 workflow이다.
+이는 **test set가 모델의 학습에 섞여 들어가는 문제를 줄일 수 있기 때문**에 더 좋은 workflow이다.
 
 <br>
 <br>
