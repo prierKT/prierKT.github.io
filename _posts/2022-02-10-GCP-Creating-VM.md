@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Google Cloud Platform - 가상 머신 생성하기"
+title: "Google Cloud Platform - 가상 머신 생성"
 excerpt: "Cloud Consol, Cloud Shall"
 toc: true
 toc_sticky: true
@@ -119,7 +119,11 @@ VM을 만들기 전에, 명령어를 통해 계정을 확인해보자.
 명령어를 통해 VM을 생성할 때, 콘솔에서 설정한 사항들을 명령어를 통해 설정할 수 있다.
 - **gcloud compute instances create [VM 이름] --machine-type [성능] --zone [사용할 서버 위치]**
 
-명령어에 대한 자세항 사항은 [google command line](https://cloud.google.com/sdk/gcloud/)을 참고하자.
+항상 한 곳의 region/zone 내에서 작업한다면, 매번 --zone 플래그를 추가하는 것이 귀찮을 수 있다. 그런 경우, 다음 명령어를 통해 기본값을 설정할 수 있다.
+- **gcloud config set compute/zone [사용할 zone]**
+- **gcloud config set compute/region [사용할 region]**
+
+gcloud 명령어에 대한 더 자세항 사항은 [google command line](https://cloud.google.com/sdk/gcloud/)을 참고하자.
 
 #### SSH 연결
 
