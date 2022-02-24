@@ -77,7 +77,7 @@ categories:
 
 <center><img src="{{site.baseurl}}/assets/images/structure10.png" /></center><br>
 
-사실, 어떤 수학 함수라도 활성화 함수로 사용될 수 있다. <img src="{{site.baseurl}}/assets/images/structure13.png" />가 활성화 함수를 나타낸다. 결과적으로 네트워크 안에서 노드의 값은 다음의 공식에 의해 계산된다.
+사실, 어떤 수학 함수라도 활성화 함수로 사용될 수 있다. <img src="{{site.baseurl}}/assets/images/structure13.png" />는 활성화 함수를 나타낸다. 결과적으로 네트워크 안에서 노드의 값은 다음의 공식에 의해 계산된다.
 
 <center><img src="{{site.baseurl}}/assets/images/structure11.png" /></center><br>
 
@@ -87,7 +87,7 @@ categories:
 '신경망(Neural Network)'이라는 것은 표준 구성 요소를 가지고있다.
 
 - 뉴런과 유사한 **노드의 집합**은 레이어 안에 구성된다.
-- **가중치 세트**는 각 신경망 레이어와 그 아래에 위치한 레이어 간의 연결을 나타낸다. 아래 계층은 다른 신경망 레이어이거나 다음 종류의 레이어일 수 있다.
+- **가중치 세트**는 각 신경망 레이어와 그 아래에 위치한 레이어 간의 연결을 나타낸다. 아래 계층은 다른 신경망 레이어이거나 다른 종류의 레이어일 수 있다.
 - **편향 집합**은 각 노드에 대해 하나이다.
 - **활성화 함수**는 레이어에 있는 각 노드의 출력값을 변환한다. 레이어가 다르면 활성화 함수도 다를 수 있다.
 
