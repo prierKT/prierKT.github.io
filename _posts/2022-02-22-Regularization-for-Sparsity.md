@@ -46,3 +46,12 @@ L2의 도함수를 매번 가중치의 x%를 제거하는 힘으로 생각할 �
 아래의 그림은 정규화 없음, L1 정규화, L2 정규화가 가중치 네트워크에 미치는 영향을 비교하기 위해 각각의 결과를 나타낸 것이다.
 
 <center><img src="{{site.baseurl}}/assets/images/regul_spar1.png" /></center><br>
+
+<br>
+<br>
+<br>
+
+---
+※ 참고
+
+[Google Developer - L1 Regularization](https://developers.google.com/machine-learning/crash-course/regularization-for-sparsity/l1-regularization)<br>
