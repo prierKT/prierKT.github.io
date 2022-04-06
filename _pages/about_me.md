@@ -1,4 +1,4 @@
----
+<!-- ---
 permalink: /about_me/
 layout: single
 author_profile: true
@@ -33,5 +33,5 @@ author_profile: true
 
 **자기소개 / INTRODUCE MYSELF**
 -----
-[방황 끝에 발견한 새로운 길]
+[방황 끝에 발견한 새로운 길] -->
 
