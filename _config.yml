@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "탐구하는 개발자의 기술블로그"
+title                    : "Evolving Engineer"
 title_separator          : "-"
-subtitle                 : "인공지능 엔지니어를 향해" # site tagline that appears below site title in masthead
+subtitle                 : "To be a data scientist" # site tagline that appears below site title in masthead
 name                     : "민경태(Kyoungtae Min)"
-description              : "인공지능 엔지니어를 향해"
+description              : "To be a data scientist"
 url                      : "https://prierKT.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/prierKT/prierKT.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # logo                     : "assets/images/logo-192x192.png"
-masthead_title           : "탐구하는 개발자"
+masthead_title           : "Evolving Engineer"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Kyoungtae Min"
   avatar           : "assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "인공지능 엔지니어를 향해<br>공부한 내용을 정리하며<br>내 것으로 만들기"
+  bio              : "성장하는 머신러닝 엔지니어가 되기 위해 공부한 내용을 정리하며 기록하기"
   location         : "Daejeon, Republic of Korea"
   email            :
   links:
