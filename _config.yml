@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 locale                   : "ko-KR"
 title                    : "Evolving Engineer"
 title_separator          : "-"
-subtitle                 : "To be a data scientist" # site tagline that appears below site title in masthead
+subtitle                 : "I'm a data scientist" # site tagline that appears below site title in masthead 
 name                     : "민경태(Kyoungtae Min)"
-description              : "To be a data scientist"
+description              : "I'm a data scientist"
 url                      : "https://prierKT.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/prierKT/prierKT.github.io"
