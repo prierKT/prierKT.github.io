@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Kyoungtae Min"
   avatar           : "assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "성장하는 머신러닝 엔지니어가 되기 위해 공부한 내용을 정리하며 기록하기"
+  bio              : "진화하는 엔지니어가 되기 위한, 공부 내용 정리 및 기록"
   location         : "Daejeon, Republic of Korea"
   email            :
   links:
